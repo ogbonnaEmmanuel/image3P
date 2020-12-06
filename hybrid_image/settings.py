@@ -24,7 +24,7 @@ SECRET_KEY = 'pndx#!+($-2m!qk_p53im)hsst0ixhju4khk+q$#h)u*^282^f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['image3pc.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'image3pc.herokuapp.com']
 
 # Application definition
 
