@@ -2,6 +2,7 @@
   <dictionary name="EMMANUEL">
     <words>
       <w>gunicorn</w>
+      <w>herokuapp</w>
     </words>
   </dictionary>
 </component>
