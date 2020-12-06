@@ -3,6 +3,7 @@
     <words>
       <w>gunicorn</w>
       <w>herokuapp</w>
+      <w>whitenoise</w>
     </words>
   </dictionary>
 </component>
