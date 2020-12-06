@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 6vh;
+    background-color: #030b45;
+    width: inherit;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.center_element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#balls_range {
+    display: flex;
+    flex-direction: row;
+}
+
+.ball {
+    width: 30px;
+    background-color: #9C1A1C;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 1vh;
+}
+
+#ball_green {
+    background-color: #7c7f1f
+}
+
+#ball_red {
+    background-color: #7c1a0a
+}
+
+#ball_blue {
+    background-color: #0a707c
+}
+
+#nav_design {
+    width: 200px;
+    height: 100px;
+    background-color: #030b45;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#nav_text {
+    position: absolute;
+    top: 35%;
+    left: 19%;
+    font-size: 27px;
+}
+
+#img_brand_1 {
+    font-family: 'Dancing Script', cursive;
+    color: #fa4444;
+}
+
+#img_brand_2 {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+#hero {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: hidden;
+}
+
+#hero_text {
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    grid-column: 2/4;
+}
+
+#img_header {
+    margin-top: -80px;
+    grid-column: 4/6;
+    width: 400px;
+}
+
+
+@media screen and (max-width: 760px) {
+    #hero{
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+    }
+    #hero_text {
+        font-size: x-large;
+    }
+
+    #img_header {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (device-width: 768px){
+    #hero_text{
+        grid-column: 1/3;
+        font-size: large;
+        margin-left: 6px;
+        letter-spacing: 3px;
+    }
+    #img_header{
+        grid-column: 3/6;
+        margin-top: -80px;
+    }
+}
+
+@media screen and (device-width: 1024px) {
+    .ball {
+        margin-top: 2vh;
+    }
+
+    #hero_text{
+        grid-column: 1/4;
+        margin-left: 4px;
+    }
+    #img_header{
+        margin-top: -80px;
+    }
+}
